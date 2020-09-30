@@ -1,0 +1,8 @@
+__pycache__
+.vscode
+venv
+.creds
+.env
+payload
+README.md
+test.py
