@@ -1,5 +1,5 @@
 simple cf app that loads pem files from credhub  
-export your certs and anything you want in your json as env vars 
+export your certs and anything you want in your json as env vars  
 ie: `export cert=$( awk 'NF {sub(/\r/, ""); printf "%s\\n",$0;}' <cert> )`  
 create the json for credhub
 ```
